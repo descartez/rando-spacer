@@ -1,2 +1,2 @@
 # Rando Spacer
-Make sentences harder to read, seach, and use.
+Make sentences harder to read, search, and use.
