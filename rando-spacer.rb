@@ -1,7 +1,6 @@
 str = ARGV
 str_arr = []
 
-
 str.each do |word|
   word_arr =  word.split("")
   word_arr.insert(rand(word.length), " ")
