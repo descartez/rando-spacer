@@ -6,7 +6,7 @@ split_strings = []
 
 for string in strings:
     split_string = list(string)
-    for _ in range(random.randrange(0,5)):
+    for _ in range(random.randrange(0,len(split_string))):
         split_string.insert(random.randrange(0,len(split_string))," ")
     split_string = "".join(split_string)
     split_strings.append(split_string)
